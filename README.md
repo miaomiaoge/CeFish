@@ -6,5 +6,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 测鱼宝实际拍摄及检测鱼类体尺性状动图如下所示：
 
 
-https://github.com/miaomiaoge/CeFish/assets/43084054/331543fe-b3b6-4c28-9b3b-f60219fa6c93
+
+
+https://github.com/miaomiaoge/CeFish/assets/43084054/acfe0b60-d91c-4936-8d9d-dff8187f3d13
 
