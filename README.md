@@ -9,14 +9,8 @@
 ## 最新版的测鱼宝软件下载地址 
 https://doi.org/10.6084/m9.figshare.24278065.v2  
 （如果出现403，则需要翻墙，或者发送“最新版测鱼宝安装包”给邮箱2992861134@qq.com）
-
-
-
-
-测鱼宝使用手册如下所示：
+## 测鱼宝使用手册
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
-
-
-测鱼宝使用动图展示：
+## 测鱼宝使用动图展示
 
 ![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/9389c975-f95a-412a-ae15-99e634e024b4)
