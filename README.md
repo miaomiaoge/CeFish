@@ -5,6 +5,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 ![关键点标准图](https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa)
 测鱼宝使用手册如下所示：
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
+
 测鱼宝使用动图展示：
 
 ![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/9389c975-f95a-412a-ae15-99e634e024b4)
