@@ -7,8 +7,4 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
 
 
-
-
-
-https://github.com/miaomiaoge/CeFish/assets/43084054/743d192f-951a-4a35-b8b7-0b5ba18969ea
-
+![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/9389c975-f95a-412a-ae15-99e634e024b4)
