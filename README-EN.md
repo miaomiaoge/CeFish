@@ -5,8 +5,8 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 ## Why choose CeFish
     This is a software that integrates fish photography, PIT ID recognition, body length, body width,
     eye width, fin length, and 14 other body shape features, as well as weight information collection
-and recording.It is called CeFish. Compared with traditional manual measurement records, CeFish not
-only greatly reduces manual labor, but also ensures the accuracy and reliability of measurement results. 
+    and recording.It is called CeFish. Compared with traditional manual measurement records, CeFish not
+    only greatly reduces manual labor, but also ensures the accuracy and reliability of measurement results. 
 Compared with other similar products, the measurementprocess of CeFish is more intelligent, and various 
 phenotypic traits can be measured with just one image. The phenotypic traits obtained from CeFish are 
 also more comprehensive, including weight, total length, body length, head length, trunk length, tail
