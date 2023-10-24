@@ -12,5 +12,4 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 ## 测鱼宝使用手册
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
 ## 测鱼宝使用动图展示
-
-![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/9c51c8ff-6ead-4796-b97c-1c073778ccf7) ![微信图片_20231018140242](https://github.com/miaomiaoge/CeFish/assets/43084054/37c65c2a-dada-4d50-a7c3-6f4463ab7d71)
+![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/ac2fb211-12e9-4551-bc4a-f84f8d0c4cb1)
