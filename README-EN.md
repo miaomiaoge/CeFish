@@ -125,7 +125,6 @@ When the following status appears in the Device Manager, the driver needs to be 
   </tr>
 </table>
 
-
 ---
 
 ## Software Permission Configuration
