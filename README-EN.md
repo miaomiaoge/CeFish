@@ -1,53 +1,76 @@
-# 测鱼宝（CeFish）使用指南
+```markdown
+# 测鱼宝简介
+<p align="center">
+  <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="yu2">
+</p>
 
-## 项目简介
-测鱼宝是基于HRNet深度学习模型开发的鱼类形态表型高通量分析工具，可自动化获取体长、体高、胸鳍、尾鳍等10个关键形态特征[1](@ref)。该软件支持实时拍摄与批量导入模式，适用于大黄鱼、鲈鱼、鲤鱼等多种养殖鱼类，助力遗传育种研究与生产优化。
+## 上一版本测鱼宝软件下载地址
+[上一版本测鱼宝软件下载](https://doi.org/10.6084/m9.figshare.24278065.v2)
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-miaomiaoge/CeFish-blue)](https://github.com/miaomiaoge/CeFish)
+**注意**：若下载时出现 403 错误，你可以使用 VPN 进行下载，或者发送邮件至 [2992861134@qq.com](mailto:2992861134@qq.com) 索取最新版测鱼宝安装包。
 
-## 安装指南
+## 测鱼宝优点
+测鱼宝是一款功能强大的软件，它集成了鱼类拍照、PIT ID 识别功能，能够收集和记录包括体长、体宽、眼宽、鳍长等 14 个体型特征以及体重信息。
 
-### 1. CP2102 USB-UART驱动安装
-#### 设备管理器检查
-- 连接设备后，右键「此电脑」→「管理」→「设备管理器」
-- 检查端口（COM和LPT）是否存在黄色警示标志  
-  ![驱动状态检查](https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531)
+与传统的手工测量记录方式相比，测鱼宝具有显著优势。它不仅极大地减少了人工劳动量，还确保了测量结果的准确性和可靠性。与其他同类产品相比，测鱼宝的优势更加突出：
+1. **测量过程智能高效**：只需一张图片，即可测得各种表型性状。
+2. **表型性状全面覆盖**：涵盖体重、全长、体长、头长、躯干长、尾长、吻长、眼长、眼后头长、尾柄长、体高、尾柄高、胸鳍长、尾鳍长、臀鳍长等。
+3. **可测鱼类种类广泛**：目前可检测的鱼类包括但不限于大黄鱼、加州鲈、桂花鲈、鲤鱼、巴浪鱼、黄翅鱼、罗非鱼、黄骨鱼、鲫鱼等。
+4. **图片要求低**：可检测各种背景下的鱼类关键点，若事先获知缩放比例，还能直接获得鱼类真实体尺。
 
-#### 官方驱动安装
-1. 下载Silicon Labs官方驱动：[CP210x_VCP_Windows.zip](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)
-2. 解压后运行`CP210xVCPInstaller_x64.exe`
-3. 按向导完成安装，重启计算机
+## 检测标准
+以大黄鱼为例，可检测的关键点及体尺性状如下图所示：
+![检测标准](https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa)
 
-#### 验证安装
-设备管理器应显示正常通信端口：  
-![验证成功示例](https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6)
+## 私有照片拍摄标准
+- **图 A**：用于检测体重和体尺，包含 3 个元素，即鱼、电子秤和黑色实线。
+- **图 B**：仅用于检测体尺，包含 2 个元素，即鱼和黑色实线。
 
-### 2. 系统授权
-1. 启动软件后进入授权申请界面：  
-   ![授权申请](https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f6cc88576)
-2. 输入激活码后进入验证状态：  
-   ![激活界面](https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff)
+![私有照片拍摄标准](https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1)
 
-## 操作流程
+## 测鱼宝使用流程
+### 1. 下载并解压
+你可以通过以下两种方式获取测鱼宝：
+- 使用 `git` 命令克隆仓库：
+```bash
+git clone https://github.com/miaomiaoge/CeFish.git
+```
+- 直接点击 **Download ZIP** 下载压缩包，然后解压。
 
-### 图像采集模块
-#### 实时拍摄模式
-1. 调整摄像头至鱼体正上方
-2. 点击「实时拍摄」按钮  
-   ![实时拍摄界面](https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9)
-3. 自动生成形态特征热图与数据报表
+### 2. UART 驱动检查与重新安装 CP2102 USB to UART Bridge Controller
+#### 1) 检查串口驱动
+打开“设备管理器”，若出现以下画面，则表示串口驱动安装失败：
+![串口驱动安装失败](https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531)
 
-#### 批量导入模式
-1. 准备标准化拍摄的JPG/PNG图像
-2. 拖拽文件夹至导入区域：  
-   ![批量导入界面](https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4)
-3. 支持同时处理≤500张图像（建议分辨率1920×1080）
+#### 2) 重新安装驱动
+你可以通过点击下方图片跳转到官方安装地址进行驱动安装：
+<a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">
+  <img src="https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" 
+       alt="Silicon Labs USB to UART Bridge VCP Drivers Download" 
+       width="80%">
+</a>
 
-## 技术文档
-- 形态特征检测原理说明
-- API接口开发指南
-- 数据标准化采集规范  
-  [查看完整文档](https://github.com/miaomiaoge/CeFish/wiki)
+安装成功画面如下：
+![安装成功](https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6)
 
-## 引用文献
-[1](@ref): Zeng J, Feng M, et al. Deep learning to obtain high-throughput morphological phenotypes and its genetic correlation with swimming performance in juvenile large yellow croaker. Aquaculture. 2023. https://doi.org/10.1016/j.aquaculture.2023.740051
+#### 3) 申请授权
+![申请授权 1](https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576)
+![申请授权 2](https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff)
+
+#### 4) 拍照功能
+![拍照功能 1](https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9)
+![拍照功能 2](https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4)
+
+## 测鱼宝使用手册
+[点击查看测鱼宝使用手册](https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4)
+```
+
+### 润色优化说明：
+1. **格式优化**：
+    - 对图片添加 `alt` 属性，增强可访问性。
+    - 使用列表形式整理文字内容，如使用手册的注意事项、测鱼宝优点等，使逻辑更清晰。
+    - 代码块使用 `bash` 语法高亮，让代码更易读。
+2. **文字表述优化**：
+    - 统一语言风格，使描述更加简洁明了。
+    - 补充完整句子结构，增强内容的流畅性。
+3. **链接优化**：将纯文本链接转换为 Markdown 链接格式，提高可读性和交互性。 
