@@ -5,7 +5,7 @@
 <h1 align="center">CeFish - Intelligent Fish Phenotype Acquisition and PIT Recording System</h1>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-2.1.0-brightgreen" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.5.0-brightgreen" alt="Version">
   <img src="https://img.shields.io/github/downloads/miaomiaoge/CeFish/total" alt="Downloads">
   <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue" alt="License">
 </div>
