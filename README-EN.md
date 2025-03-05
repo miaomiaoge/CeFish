@@ -168,6 +168,5 @@ When the following status appears in the Device Manager, the driver needs to be 
 
 ## Technical Support
 📧 Email: 2992861134@qq.com  
-📞 Technical Support: 15853246086  
-🌐 Docs: User Manual (https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1)
-📚 Docs: User Manual
+📞 Hotline: +86-15853246086  
+📚 Docs: User Manual (https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1)
