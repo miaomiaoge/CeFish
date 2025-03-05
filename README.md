@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
 
    #### 4）检测功能
 
-![QQ202535-152348](https://github.com/user-attachments/assets/0d50f557-826b-4acf-a31c-2ba822800780)
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2504d176-aef4-4c8f-872a-6b453e8e2ac6)
 
 
 
