@@ -33,7 +33,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
    **官方安装地址：** 
  
    ![image](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)
-  <img src= "https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" width="60%" https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads>
+  <img src= "https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" width="60%" "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">
 
    ```https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads```
    
