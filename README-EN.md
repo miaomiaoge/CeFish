@@ -118,7 +118,7 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="10%">
+      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="90%">
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" width="90%">     
