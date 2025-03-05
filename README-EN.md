@@ -2,7 +2,7 @@
   <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="CeFish Logo">
 </p>
 
-<h1 align="center"> 测鱼宝 - 智能鱼类表型采集系统</h1>
+<h1 align="center"> 测鱼宝——智能鱼类表型采集与PIT记录系统</h1>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Version-2.1.0-brightgreen" alt="版本">
