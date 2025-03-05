@@ -68,11 +68,11 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="30%">
+      <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="90%">
       <br>必备元素：实验鱼+电子秤+5mm黑色实线
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="30%">
+      <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="90%">
       <br>必备元素：实验鱼+5mm黑色实线
     </td>
   </tr>
@@ -118,11 +118,11 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="90%">
+      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="40%">
      
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" width="90%">
+      <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" width="40%">
     </td>
   </tr>
 </table>
