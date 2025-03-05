@@ -110,16 +110,23 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 ---
 
 ## 系统权限配置
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 30px 0">
-  <div>
-    <h3>🔑 设备授权界面</h3>
-    <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" style="border-radius:8px">
-  </div>
-  <div>
-    <h3>✅ 激活成功提示</h3>
-    <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" style="border-radius:8px">
-  </div>
-</div>
+
+<table>
+  <tr>
+    <th width="50%">申请授权界面</th>
+    <th>授权界面</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="90%">
+     
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" width="90%">
+    </td>
+  </tr>
+</table>
+
 
 ---
 
