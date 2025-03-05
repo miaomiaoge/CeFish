@@ -43,7 +43,8 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 <img src= "https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="40%">
 
 #### 申请授权
-<img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="50%"><img src="https://github.com/user-attachments/assets/ea6a464b-8682-4ab4-92f8-5b206d7aae8a" width="50%">
+<img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="50%"><img src="https://github.com/user-attachments/assets/476714fe-c9a3-41e1-ab0c-bcf6c4b86b7c" width="50%">
+
 
 
    #### 3）拍照功能
