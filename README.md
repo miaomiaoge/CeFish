@@ -44,7 +44,6 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
    #### 3）拍照功能
 
-
 https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
 
    #### 4）检测功能
@@ -52,11 +51,5 @@ https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
 <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" width="50%">
 
 
-
-
-<img src= "https://github.com/user-attachments/assets/8b718064-6dbc-4fbc-8021-ea7b2a9f1245" width="40%">
-
 ## 测鱼宝使用手册
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
-## 测鱼宝使用动图展示
-![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/ac2fb211-12e9-4551-bc4a-f84f8d0c4cb1)
