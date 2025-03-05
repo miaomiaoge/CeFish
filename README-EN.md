@@ -33,7 +33,7 @@
   <tr>
     <td>测量方式</td>
     <td>手工测量工具（游标卡尺等）</td>
-    <td>深度学习图像识别（HRNet模型[1](@ref)）</td>
+    <td>深度学习图像识别（测鱼宝）</td>
   </tr>
   <tr>
     <td>检测指标</td>
@@ -43,12 +43,12 @@
   <tr>
     <td>适用鱼种</td>
     <td>特定品种</td>
-    <td>跨物种通用（支持大黄鱼、鲈鱼等9+品种）</td>
+    <td>跨物种通用（支持大黄鱼、鲈鱼、鲤鱼等10+品种）</td>
   </tr>
   <tr>
     <td>环境要求</td>
     <td>实验室标准环境</td>
-    <td>复杂背景自适应（准确率＞96%[1](@ref)）</td>
+    <td>复杂背景自适应（准确率＞96%）</td>
   </tr>
 </table>
 
@@ -130,7 +130,6 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 
 ## 功能验证
 
-
 <table>
   <tr>
     <th width="50%">图像采集</th>
@@ -149,6 +148,6 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 ---
 
 ## 技术支持
-📧 服务邮箱: tech@cefish.com  
-📞 技术支持: 0592-2186 0335  
+📧 服务邮箱: 2992861134@qq.com  
+📞 技术支持: 15853246086  
 🌐 知识库: [测鱼宝使用手册](https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1)
