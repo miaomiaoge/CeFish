@@ -109,7 +109,22 @@ When the following status appears in the Device Manager, the driver needs to be 
 [![Silicon Labs官方下载入口](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)  
 
 #### 2.2 Installation verification
-<img src="https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="400" style="box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+<table>
+  <tr>
+    <th width="50%">Download and install</th>
+    <th>Phenotype Measurement</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a57a0d91-15f9-4e2f-90de-84e503aa818e" style="box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </td>
+    <td>
+      <img src=https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="%90" style="box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </td>
+  </tr>
+</table>
+
 
 ---
 
