@@ -35,9 +35,11 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
    <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">
   <img src="https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" 
        alt="Silicon Labs USB to UART Bridge VCP Drivers Download" 
-       width="60%">
+       width="80%">
 </a>
-  
+
+  **安装成功**
+<img src= "https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="40%">
    #### 3）运行软件
 <img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="60%">
 
