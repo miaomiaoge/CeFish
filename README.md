@@ -49,7 +49,8 @@ https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
 
    #### 4）检测功能
 
-<img src="https://github.com/user-attachments/assets/60a5c24a-2a4b-4150-b80a-d9f99e0c7ab0" width="50%">
+<img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" width="50%">
+
 
 
 
