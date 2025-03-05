@@ -1,21 +1,36 @@
-# <p align="center">![yu2](https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a)Introduction to CeFish </p>
-## Download address of the latest version of CeFish software
-https://doi.org/10.6084/m9.figshare.24278065.v2  
-（Note: If 403 appears, you'll need a VPN, or email 2992861134@qq.com to request the latest version of the package）
-## Why choose CeFish
-    This is a software that integrates fish photography, PIT ID recognition, body length, body width,
-    eye width, fin length, and 14 other body shape features, as well as weight information collection
-    and recording.It is called CeFish. Compared with traditional manual measurement records, CeFish not
-    only greatly reduces manual labor, but also ensures the accuracy and reliability of measurement results. 
-    Compared with other similar products, the measurementprocess of CeFish is more intelligent, and various 
-    phenotypic traits can be measured with just one image. The phenotypic traits obtained from CeFish are 
-    also more comprehensive, including weight, total length, body length, head length, trunk length, tail
-    length, snout length, eye length, head length behind the eyes, tail stalk length, body height, tail 
-    stalk height, and chest Fin length, tail fin length, hip fin length, etc.
-##  Keypoint detection standard
-Taking large yellow croaker as an example, the keypoints and body size traits that can be detected are shown in the figure below：
-![关键点标准图](https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa)
-## CeFish User guide
-https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
-## Display of the use of CeFish with a dynamic diagram
-![n1](https://github.com/miaomiaoge/CeFish/assets/43084054/ac2fb211-12e9-4551-bc4a-f84f8d0c4cb1)
+# 测鱼宝简介
+
+<p align="center">
+  <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="yu2">
+</p>
+
+## 上一版本的测鱼宝软件下载地址
+[点击此处下载](https://doi.org/10.6084/m9.figshare.24278065.v2)
+
+**注意**：如果出现 403 错误，则需要使用 VPN，或者给邮箱 [2992861134@qq.com](mailto:2992861134@qq.com) 发邮件要求获取最新版测鱼宝安装包。
+
+## 测鱼宝优点
+测鱼宝是一款集鱼类拍照、PIT ID 识别、体长、体宽、眼宽、鳍长等 14 个体型特征以及体重信息收集和记录于一体的软件。与传统的手工测量记录相比，它不仅大大减少了人工劳动，而且保证了测量结果的准确性和可靠性。与其他同类产品相比，测鱼宝具有以下优势：
+
+1. **测量过程更加智能**：只需一张图片，就可测得各种表型性状。
+2. **获得表型性状更加全面**：包括体重、全长、体长、头长、躯干长、尾长、吻长、眼长、眼后头长、尾柄长、体高、尾柄高、胸鳍长、尾鳍长、臀鳍长等。
+3. **可测鱼类种类更加广泛**：目前可检测的鱼类包括但不限于大黄鱼、加州鲈、桂花鲈、鲤鱼、巴浪鱼、黄翅鱼、罗非鱼、黄骨鱼、鲫鱼等。
+4. **对拍摄图片要求更低**：可检测各种背景下的鱼类关键点，如果事先获知缩放比例，则可以直接获得鱼类真实体尺。
+
+## 检测标准
+以大黄鱼为例，可检测的关键点及体尺性状如下图所示：
+
+<img src="https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa" width="60%">
+
+## 私有照片拍摄标准
+- **图 A**：检测体重和体尺（3 元素，包含鱼、电子秤、黑色实线）
+- **图 B**：仅检测体尺（2 元素，包含鱼、黑色实线）
+
+<img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="60%">
+
+## 测鱼宝使用流程
+### 1. 下载并解压
+你可以通过以下两种方式获取测鱼宝：
+- 使用 `git` 命令克隆仓库：
+```python
+git clone https://github.com/miaomiaoge/CeFish.git
