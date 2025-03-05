@@ -32,7 +32,7 @@
     <th>测鱼宝方案</th>
   </tr>
   <tr>
-    <td width="25%" style="text-align: center;>测量方式</td>
+    <td width="25%">测量方式</td>
     <td width="25%">手工测量工具（游标卡尺等）</td>
     <td width="25%">目标检测，目标分割，关键点检测</td>
     <td width="25%">关键点检测</td>
