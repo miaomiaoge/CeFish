@@ -89,134 +89,60 @@ git clone https://github.com/miaomiaoge/CeFish.git
 wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 
 ---
-<style>
-.driver-container {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-    font-family: 'Segoe UI', system-ui;
-}
+# CP2102 USB-UART驱动配置指南
 
-.section-card {
-    background: #f8f9fa;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
+## 硬件驱动管理
+### 1. 驱动状态验证
+**异常状态标识**​  
+当设备管理器出现以下状态时，需重新安装驱动：
+<img src="https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="300" style="border:2px solid #ff6b6b; border-radius:8px;">
 
-.section-title {
-    color: #2c3e50;
-    border-left: 4px solid #3498db;
-    padding-left: 1rem;
-    margin: 1.5rem 0;
-}
+---
 
-.img-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+### 2. 驱动安装流程
+#### 2.1 官方驱动下载
+[![Silicon Labs官方下载入口](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)  
+*支持Windows 10/11系统 | 最新版本v6.7.6 (2024-03更新)*
 
-.driver-img {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    transition: transform 0.2s;
-    width: 100%;
-    height: auto;
-}
+#### 2.2 安装验证
+<img src="https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="400" style="box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-.driver-img:hover {
-    transform: translateY(-3px);
-}
+---
 
-.download-card {
-    background: linear-gradient(135deg, #3498db, #2980b9);
-    color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    text-align: center;
-}
-
-.download-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.8rem;
-    padding: 1rem 2rem;
-    background: rgba(255,255,255,0.15);
-    border: 2px solid rgba(255,255,255,0.3);
-    border-radius: 50px;
-    transition: all 0.3s;
-}
-
-.download-btn:hover {
-    background: rgba(255,255,255,0.25);
-    transform: scale(1.05);
-}
-
-@media (max-width: 768px) {
-    .img-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
-
-<div class="driver-container">
-    <!-- 驱动检查 -->
-    <div class="section-card">
-        <h2 class="section-title">驱动状态检测</h2>
-        <div class="img-grid">
-            <img src="https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" 
-                 alt="设备管理器驱动异常示意图"
-                 class="driver-img">
-        </div>
-        <p style="color: #e74c3c; margin-top: 1rem;">⚠️ 黄色感叹号标识表示驱动异常（参考网页1）</p>
-    </div>
-
-    <!-- 驱动安装 -->
-    <div class="section-card">
-        <h2 class="section-title">驱动安装指南</h2>
-        <div class="download-card">
-            <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads" 
-               class="download-btn"
-               target="_blank">
-                <svg width="24" height="24" fill="currentColor" style="margin-right:8px;">...</svg>
-                访问 Silicon Labs 官方下载
-            </a>
-            <p style="margin-top:1.5rem;">最新版本：v6.7（2025-02-20更新）</p>
-        </div>
-        
-        <div class="img-grid" style="margin-top:2rem;">
-            <img src="https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" 
-                 alt="驱动安装成功示意图"
-                 class="driver-img">
-        </div>
-    </div>
-
-    <!-- 设备授权 -->
-    <div class="section-card">
-        <h2 class="section-title">设备权限配置</h2>
-        <div class="img-grid">
-            <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" 
-                 alt="Windows设备授权界面"
-                 class="driver-img">
-            <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" 
-                 alt="Linux设备授权界面"
-                 class="driver-img">
-        </div>
-        <p style="margin-top:1rem;">➡️ Ubuntu系统需要执行 <code>sudo chmod 666 /dev/ttyUSB0</code>（参考网页3）</p>
-    </div>
-
-    <!-- 功能演示 -->
-    <div class="section-card">
-        <h2 class="section-title">串口功能验证</h2>
-        <div class="img-grid">
-            <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" 
-                 alt="串口调试工具界面"
-                 class="driver-img">
-            <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" 
-                 alt="数据收发验证界面"
-                 class="driver-img">
-        </div>
-    </div>
+## 系统权限配置
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 30px 0">
+  <div>
+    <h3>🔑 设备授权界面</h3>
+    <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" style="border-radius:8px">
+  </div>
+  <div>
+    <h3>✅ 激活成功提示</h3>
+    <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" style="border-radius:8px">
+  </div>
 </div>
+
+---
+
+## 功能验证
+### 实时图像采集
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px">
+  <div style="position:relative">
+    <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="border:2px solid #4ecdc4">
+    <div style="position:absolute; bottom:10px; left:10px; background:rgba(78,205,196,0.8); color:white; padding:5px 10px; border-radius:4px">
+      STEP 1: 设备连接
+    </div>
+  </div>
+  <div style="position:relative">
+    <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="border:2px solid #4ecdc4">
+    <div style="position:absolute; bottom:10px; left:10px; background:rgba(78,205,196,0.8); color:white; padding:5px 10px; border-radius:4px">
+      STEP 2: 参数设置
+    </div>
+  </div>
+</div>
+
+---
+
+## 技术支持
+📧 服务邮箱: tech@cefish.com  
+📞 技术支持: 0592-2186 0335  
+🌐 知识库: [测鱼宝使用手册](https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1)
