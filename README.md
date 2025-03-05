@@ -25,7 +25,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
  git clone https://github.com/miaomiaoge/CeFish.git
  ```
       
- 或  直接 **Download ZIP**
+ 或 直接 **Download ZIP** ，然后解压
 
  ###  2. UART驱动检查&重新安装 CP2102 USB to UART Bridge Controller
    #### 1） 打开“设备管理器”，若出现以下画面则为串口驱动安装失败 
