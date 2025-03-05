@@ -80,21 +80,12 @@
 
 ---
 
-## 安装与配置
-### 1. 环境部署
-
-# 克隆代码仓库
-git clone https://github.com/miaomiaoge/CeFish.git
-
-# 或直接下载压缩包
-wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
-
-
-
-
-
-
-
 ## 🛠️ 安装指南
+
+
 ### 1. 源码获取
 git clone https://github.com/miaomiaoge/CeFish.git
+
+### 2. 或直接下载压缩包
+wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
+
