@@ -87,7 +87,7 @@
 
 ## 🛠️ Installation Guide
 ### 1. Source Code
-```bash
+
 git clone https://github.com/miaomiaoge/CeFish.git
 
 ### 2. Direct Download
