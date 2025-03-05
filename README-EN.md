@@ -1,3 +1,6 @@
+由于你没有明确指出具体需要润色的代码片段（用户选中的代码），以下是对整个 `README (1).md` 文件进行润色后的内容，主要是对格式、文本结构进行了优化，使其更易读：
+
+```markdown
 # 测鱼宝简介
 
 <p align="center">
@@ -34,3 +37,46 @@
 - 使用 `git` 命令克隆仓库：
 ```python
 git clone https://github.com/miaomiaoge/CeFish.git
+```
+- 直接点击 **Download ZIP** 下载压缩包，然后解压。
+
+### 2. UART 驱动检查 & 重新安装 CP2102 USB to UART Bridge Controller
+#### 1）检查串口驱动
+打开“设备管理器”，若出现以下画面则为串口驱动安装失败：
+
+<img src="https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="20%">
+
+#### 2）重新安装驱动
+**官方安装地址**（点击下方图片跳转）：
+<a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">
+  <img src="https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" 
+       alt="Silicon Labs USB to UART Bridge VCP Drivers Download" 
+       width="80%">
+</a>
+
+**安装成功画面**：
+
+<img src="https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="40%">
+
+#### 3）申请授权
+
+<p>
+  <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" style="height: 400px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" style="height: 400px;">
+</p>
+
+#### 4）拍照功能
+
+<p>
+  <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="height: 390px; margin-right: 10px;">
+  <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="height: 390px;">
+</p>
+
+## 测鱼宝使用手册
+[点击查看使用手册](https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4)
+```
+
+主要的改动点包括：
+1. 将图片的 `align` 属性单独拿出来，使结构更清晰。
+2. 对下载地址和注意事项的文本格式进行了优化，使用了链接和列表的形式。
+3. 在使用流程部分，对步骤的描述进行了细化，使整个流程更加清晰易懂。
