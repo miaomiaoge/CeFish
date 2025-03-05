@@ -27,7 +27,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
  ###  2. UART驱动检查&重新安装 CP2102 USB to UART Bridge Controller
    #### 1） 打开“设备管理器”，若出现以下画面则为串口驱动安装失败 
-  <img src= "https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="60%">
+  <img src= "https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="40%">
   
    #### 2）重新安装驱动
    **官方安装地址：** 
@@ -36,7 +36,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   <img src="https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" width="60%">
 </a>
   
-   ```https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads```
+ 
    
 <img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="60%">
 
