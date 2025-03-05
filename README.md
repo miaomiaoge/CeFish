@@ -12,7 +12,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 ## 检测标准
 以大黄鱼为例，可检测的关键点及体尺性状如下图所示：
 
-<img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa" width="80%">
+<img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa" width="60%">
 
 ## 私有照片拍摄标准
    **图A：** 检测体重和体尺（3元素，包含鱼、电子秤、黑色实线）      **图B：**  仅检测体尺 （2元素，包含鱼、黑色实线）
@@ -21,7 +21,9 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
 ## 测鱼宝使用流程
  ###  1. 下载并解压：     
- ```git clone https://github.com/miaomiaoge/CeFish.git ```
+ ```python
+ git clone https://github.com/miaomiaoge/CeFish.git
+ ```
       
  或  直接 **Download ZIP**
 
