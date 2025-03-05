@@ -21,7 +21,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
 ## 测鱼宝使用流程
  ### 1） 下载     
- ```git clone https://github.com/miaomiaoge/CeFish.git ``` 或 直接 Download ZIP  下载解压所有的压缩包
+ **```git clone https://github.com/miaomiaoge/CeFish.git ```** 或  直接 **Download ZIP**  **下载解压所有的压缩包**
  
 <img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="60%">
 
