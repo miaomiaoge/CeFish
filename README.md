@@ -50,13 +50,16 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   <img src="https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff" style="height: 400px;">
 </p>
 
+
+
    #### 3）拍照功能
 
-<img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" width="50%">
+<p>
+  <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="height: 400px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="height: 400px;">
+</p>
 
-   #### 4）检测功能
 
-<img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" width="50%">
 
 
 ## 测鱼宝使用手册
