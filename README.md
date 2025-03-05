@@ -33,7 +33,8 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
    #### 2）重新安装驱动
    **官方安装地址：** 
-   ![image](https://github.com/user-attachments/assets/68384bda-8507-49e8-938a-86203ba7f8a3)
+   ![image](https://github.com/user-attachments/assets/886aa7e2-cc6b-465e-b87f-ce9c5c91801a)
+
 
    ```https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads```
    
