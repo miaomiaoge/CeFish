@@ -20,9 +20,12 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   <img src= "https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="60%">
   
 ## 测鱼宝使用流程
- ### 1） 下载     
- **```git clone https://github.com/miaomiaoge/CeFish.git ```** 或  直接 **Download ZIP**  **下载解压所有的压缩包**
- 
+ ###  下载：      **```git clone https://github.com/miaomiaoge/CeFish.git ```** 或  直接 **Download ZIP**
+ ###  解压
+ ###  UART驱动检查&重新安装 CP2102 USB to UART Bridge Controller
+   打开“设备管理器”，若出现以下画面则为串口驱动安装失败 
+ ![image](https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531)
+
 <img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="60%">
 
 ## 测鱼宝使用手册
