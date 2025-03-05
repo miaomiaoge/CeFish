@@ -55,8 +55,8 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
    #### 3）拍照功能
 
 <p>
-  <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="height: 200px; margin-right: 20px;">
-  <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="height: 200px;">
+  <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="height: 300px; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="height: 300px;">
 </p>
 
 
