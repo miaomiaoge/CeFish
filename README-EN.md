@@ -89,12 +89,12 @@ git clone https://github.com/miaomiaoge/CeFish.git
 wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 
 ---
-# CP2102 USB-UART驱动配置指南
 
-## 硬件驱动管理
+## 硬件驱动管理（CP2102 USB-UART）
 ### 1. 驱动状态验证
 **异常状态标识**​  
 当设备管理器出现以下状态时，需重新安装驱动：
+
 <img src="https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="300" style="border:2px solid #ff6b6b; border-radius:8px;">
 
 ---
