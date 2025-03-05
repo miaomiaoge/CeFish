@@ -44,7 +44,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
    #### 3）拍照功能
 
-https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
+<img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" width="80%">
 
    #### 4）检测功能
 
