@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a">
 </p>
