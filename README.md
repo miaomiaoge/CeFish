@@ -24,7 +24,7 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
  ### 1） 下载     
  ```git clone https://github.com/miaomiaoge/CeFish.git ``` 或 直接 Download ZIP  下载解压所有的压缩包
  
-<img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="210px">
+<img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="50%">
 
 ## 测鱼宝使用手册
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
