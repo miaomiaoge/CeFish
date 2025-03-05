@@ -24,7 +24,7 @@
 
 ---
 ## 🏆 核心优势
-<table style="text-align: center; margin: 0 auto;>
+<table>
   <tr>
     <th width="25%">功能维度</th>
     <th>传统方法</th>
