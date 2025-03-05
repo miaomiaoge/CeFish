@@ -78,7 +78,7 @@
 git clone https://github.com/miaomiaoge/CeFish.git
 或直接下载ZIP压缩包
 
-2. 驱动配置
+### 2. 驱动配置
 点击查看详细驱动安装说明
 📱 操作界面
 https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9 https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4
