@@ -44,6 +44,10 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
    #### 3）运行软件
 
+
+https://github.com/user-attachments/assets/fc5d323d-5377-479f-b8d2-73f34d6bef32
+
+
 <img src= "https://github.com/user-attachments/assets/8b718064-6dbc-4fbc-8021-ea7b2a9f1245" width="40%">
 
 ## 测鱼宝使用手册
