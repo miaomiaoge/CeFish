@@ -114,7 +114,7 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 
 ---
 
-## 系统权限配置
+## 软件权限配置
 
 <table>
   <tr>
