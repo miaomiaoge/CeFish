@@ -32,7 +32,11 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
    #### 2）重新安装驱动
    **官方安装地址** （点击下方图片跳转）
-   
+   <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">
+  <img src="https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" 
+       alt="Silicon Labs USB to UART Bridge VCP Drivers Download" 
+       width="60%">
+</a>
   
    #### 3）运行软件
 <img src= "https://github.com/user-attachments/assets/08e05911-460f-441b-8ed8-156e30f3baf4" width="60%">
