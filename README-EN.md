@@ -89,3 +89,72 @@
 ### 1. Source Code
 ```bash
 git clone https://github.com/miaomiaoge/CeFish.git
+
+### 2. Direct Download
+wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
+
+---
+
+## 🔌 Hardware Setup (CP2102 USB-UART)
+### 1. Driver Verification
+**异常状态标识**​  
+当设备管理器出现以下状态时，需重新安装驱动：
+
+<img src="https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="300" style="border:2px solid #ff6b6b; border-radius:8px;">
+
+---
+
+### 2. Driver Installation
+#### 2.1 官方驱动下载
+[![Silicon Labs官方下载入口](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)  
+*支持Windows 10/11系统 | 最新版本v6.7.6 (2024-03更新)*
+
+#### 2.2 安装验证
+<img src="https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="400" style="box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+---
+
+## 系统权限配置
+
+<table>
+  <tr>
+    <th width="50%">Authorization Request</th>
+    <th>Activation</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f26f6cc88576" width="%90">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/5c2cf772-6a4a-47b6-9d23-8421d4aaad3c" width="%90">     
+    </td>
+  </tr>
+</table>
+
+
+---
+
+##  Function Verification
+
+<table>
+  <tr>
+    <th width="50%">Image Acquisition</th>
+    <th>Phenotype Measurement</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" width="%90">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" width="%90">     
+    </td>
+  </tr>
+</table>
+
+---
+
+## Technical Support
+📧 Email: 2992861134@qq.com  
+📞 Technical Support: 15853246086  
+🌐 Docs: User Manual (https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1)
+📚 Docs: User Manual
