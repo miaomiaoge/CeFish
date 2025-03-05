@@ -129,21 +129,22 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 ---
 
 ## 功能验证
-### 实时图像采集
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px">
-  <div style="position:relative">
-    <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" style="border:2px solid #4ecdc4">
-    <div style="position:absolute; bottom:10px; left:10px; background:rgba(78,205,196,0.8); color:white; padding:5px 10px; border-radius:4px">
-      STEP 1: 设备连接
-    </div>
-  </div>
-  <div style="position:relative">
-    <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" style="border:2px solid #4ecdc4">
-    <div style="position:absolute; bottom:10px; left:10px; background:rgba(78,205,196,0.8); color:white; padding:5px 10px; border-radius:4px">
-      STEP 2: 参数设置
-    </div>
-  </div>
-</div>
+
+
+<table>
+  <tr>
+    <th width="50%">图像采集</th>
+    <th>表型测量</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9" width="%90">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4" width="%90">     
+    </td>
+  </tr>
+</table>
 
 ---
 
