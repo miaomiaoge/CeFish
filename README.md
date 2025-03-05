@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
 
    #### 4）检测功能
 
-<img src="[GIF图片的URL](https://github.com/user-attachments/assets/2504d176-aef4-4c8f-872a-6b453e8e2ac6)" width="50%">
+<img src="https://github.com/user-attachments/assets/2504d176-aef4-4c8f-872a-6b453e8e2ac6" width="50%">
 
 
 <img src= "https://github.com/user-attachments/assets/8b718064-6dbc-4fbc-8021-ea7b2a9f1245" width="40%">
