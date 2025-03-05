@@ -1,61 +1,53 @@
-<p align="center">
-  <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="测鱼宝LOGO">
-</p>
+# 测鱼宝（CeFish）使用指南
 
-<h1 align="center">测鱼宝 - 智能鱼类表型测量系统</h1>
+## 项目简介
+测鱼宝是基于HRNet深度学习模型开发的鱼类形态表型高通量分析工具，可自动化获取体长、体高、胸鳍、尾鳍等10个关键形态特征[1](@ref)。该软件支持实时拍摄与批量导入模式，适用于大黄鱼、鲈鱼、鲤鱼等多种养殖鱼类，助力遗传育种研究与生产优化。
 
-<div align="center">
-  <strong>一站式解决鱼类表型数据采集难题</strong><br>
-  <a href="#最新版本">v2.0 下载</a> •
-  <a href="#检测标准">检测标准</a> •
-  <a href="#使用指南">使用指南</a> •
-  <a href="#联系我们">问题反馈</a>
-</div>
+[![GitHub Repository](https://img.shields.io/badge/GitHub-miaomiaoge/CeFish-blue)](https://github.com/miaomiaoge/CeFish)
 
----
+## 安装指南
 
-## 🔍 项目简介
-智能化的鱼类表型数据采集系统，通过计算机视觉技术实现：
-- 🎯 ​**14+关键体征测量**：体长、体宽、眼宽、鳍长等形态特征
-- ⚖️ ​**体重同步记录**：支持电子秤数据实时采集
-- 🐟 ​**多鱼种适配**：大黄鱼、加州鲈、桂花鲈等9种常见经济鱼类
-- 📸 ​**智能图像处理**：复杂背景下的自动识别与测量
+### 1. CP2102 USB-UART驱动安装
+#### 设备管理器检查
+- 连接设备后，右键「此电脑」→「管理」→「设备管理器」
+- 检查端口（COM和LPT）是否存在黄色警示标志  
+  ![驱动状态检查](https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531)
 
-[![获取安装包](https://img.shields.io/badge/下载-最新版本-blue)](https://doi.org/10.6084/m9.figshare.24278065.v2)
-<sub>*出现403错误请使用VPN或发送请求至2992861134@qq.com</sub>
+#### 官方驱动安装
+1. 下载Silicon Labs官方驱动：[CP210x_VCP_Windows.zip](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)
+2. 解压后运行`CP210xVCPInstaller_x64.exe`
+3. 按向导完成安装，重启计算机
 
----
+#### 验证安装
+设备管理器应显示正常通信端口：  
+![验证成功示例](https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6)
 
-## 🚀 核心优势
-<table>
-  <tr>
-    <td width="25%">
-      <h3>📐 测量智能化</h3>
-      单张图片自动解析14+体征数据<br>
-      <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/e65d7965-0400-4525-8b31-435e6606b8fa" width="200">
-    </td>
-    <td width="25%">
-      <h3>🎯 数据全面性</h3>
-      覆盖形态学全指标：<br>
-      体长｜头长｜尾柄长｜胸鳍长｜臀鳍长...
-    </td>
-    <td width="25%">
-      <h3>🌐 环境适应性</h3>
-      支持复杂背景下的特征提取<br>
-      <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="200">
-    </td>
-    <td width="25%">
-      <h3>📊 结果精准度</h3>
-      与传统测量对比误差 ≤1.2%<br>
-      重复测量一致性 >99%
-    </td>
-  </tr>
-</table>
+### 2. 系统授权
+1. 启动软件后进入授权申请界面：  
+   ![授权申请](https://github.com/user-attachments/assets/34076251-4dc0-4a8d-a166-f6cc88576)
+2. 输入激活码后进入验证状态：  
+   ![激活界面](https://github.com/user-attachments/assets/c03ece07-c2bd-40ac-ad87-6c0e07dd4cff)
 
----
+## 操作流程
 
-## 🛠️ 快速入门
-### 1. 环境配置
-```bash
-git clone https://github.com/miaomiaoge/CeFish.git
-cd CeFish && pip install -r requirements.txt
+### 图像采集模块
+#### 实时拍摄模式
+1. 调整摄像头至鱼体正上方
+2. 点击「实时拍摄」按钮  
+   ![实时拍摄界面](https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9)
+3. 自动生成形态特征热图与数据报表
+
+#### 批量导入模式
+1. 准备标准化拍摄的JPG/PNG图像
+2. 拖拽文件夹至导入区域：  
+   ![批量导入界面](https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4)
+3. 支持同时处理≤500张图像（建议分辨率1920×1080）
+
+## 技术文档
+- 形态特征检测原理说明
+- API接口开发指南
+- 数据标准化采集规范  
+  [查看完整文档](https://github.com/miaomiaoge/CeFish/wiki)
+
+## 引用文献
+[1](@ref): Zeng J, Feng M, et al. Deep learning to obtain high-throughput morphological phenotypes and its genetic correlation with swimming performance in juvenile large yellow croaker. Aquaculture. 2023. https://doi.org/10.1016/j.aquaculture.2023.740051
