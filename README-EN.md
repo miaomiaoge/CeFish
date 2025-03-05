@@ -9,43 +9,6 @@
   <img src="https://img.shields.io/github/downloads/miaomiaoge/CeFish/total" alt="下载量">
   <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue" alt="许可协议">
 </div>
-
-# 测鱼宝使用指南
-
-## 软件获取
-### 最新版本下载
-- ​**正式版地址**：  
-  https://doi.org/10.6084/m9.figshare.24278065.v2  
-  （注：如遇403访问限制，建议通过VPN访问或发送邮件至2992861134@qq.com索取安装包）
-
-
-
-## 安装与配置
-### 1. 环境部署
-
-# 克隆代码仓库
-git clone https://github.com/miaomiaoge/CeFish.git
-
-# 或直接下载压缩包
-wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
-
-<p align="center">
-  <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="测鱼宝系统架构">
-</p>
-
----
-
-## 📥 软件获取
-**最新版本**​  
-`v2.0.1` 发布于2023年11月  
-[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.24278065.v2-blue)](https://doi.org/10.6084/m9.figshare.24278065.v2)  
-
-⚠️ 访问提示：  
-- 遇到403错误建议使用校园VPN访问
-- 或发送请求至技术支持邮箱：2992861134@qq.com
-
----
-
 ## 🏆 核心优势
 <table>
   <tr>
@@ -102,6 +65,34 @@ wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
 </table>
 
 ---
+# 测鱼宝使用指南
+---
+## 📥 软件获取
+**最新版本**​  
+`v2.0.1` 发布于2023年11月  
+[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.24278065.v2-blue)](https://doi.org/10.6084/m9.figshare.24278065.v2)  
+
+⚠️ 访问提示：  
+- 遇到403错误建议使用校园VPN访问
+- 或发送请求至技术支持邮箱：2992861134@qq.com
+
+---
+
+
+## 安装与配置
+### 1. 环境部署
+
+# 克隆代码仓库
+git clone https://github.com/miaomiaoge/CeFish.git
+
+# 或直接下载压缩包
+wget https://github.com/miaomiaoge/CeFish/archive/refs/heads/main.zip
+
+
+
+
+
+
 
 ## 🛠️ 安装指南
 ### 1. 源码获取
