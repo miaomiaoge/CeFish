@@ -113,7 +113,7 @@ When the following status appears in the Device Manager, the driver needs to be 
 <table>
   <tr>
     <th width="50%">Download and install</th>
-    <th>Phenotype Measurement</th>
+    <th>Sucessfully installed</th>
   </tr>
   <tr>
     <td>
