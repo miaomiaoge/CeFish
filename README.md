@@ -21,20 +21,19 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
 ## 测鱼宝使用流程
  ###  1. 下载并解压：     
- **```git clone https://github.com/miaomiaoge/CeFish.git ```**
+ ```git clone https://github.com/miaomiaoge/CeFish.git ```
       
-      或  直接 **Download ZIP**
+ 或  直接 **Download ZIP**
 
  ###  2. UART驱动检查&重新安装 CP2102 USB to UART Bridge Controller
    #### 1） 打开“设备管理器”，若出现以下画面则为串口驱动安装失败 
-   ![image](https://github.com/user-attachments/assets/8b495eb2-f46e-4408-9bf0-6ce437d930dd)
-
   <img src= "https://github.com/user-attachments/assets/bdf34115-5977-4393-b110-05db46d79531" width="60%">
   
    #### 2）重新安装驱动
    **官方安装地址：** 
-   ![image](https://github.com/user-attachments/assets/886aa7e2-cc6b-465e-b87f-ce9c5c91801a)
-
+ 
+   ![image](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)
+  <img src= "https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d" width="60%" https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads>
 
    ```https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads```
    
