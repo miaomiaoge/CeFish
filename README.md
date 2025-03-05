@@ -1,5 +1,5 @@
 # <p align="center">![yu2](https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a)测鱼宝简介 </p>
-## 最新版的测鱼宝软件下载地址 
+## 上一版本的测鱼宝软件下载地址 
 https://doi.org/10.6084/m9.figshare.24278065.v2  
 （注：如果出现403，则需要VPN，或者给邮箱2992861134@qq.com发邮件要求最新版测鱼宝安装包）
 ## 测鱼宝优点
@@ -20,7 +20,9 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   2）仅检测体尺     （2要素：鱼、黑色实线）
   
   ![图片2](https://github.com/miaomiaoge/CeFish/assets/43084054/55cdbb14-e96e-48f2-8161-6e9ea09025ce)
-
+## 测鱼宝使用流程
+ 1） 下载 
+      git clone https://github.com/miaomiaoge/CeFish.git 或 直接 Download ZIP
 ## 测鱼宝使用手册
 https://xmufgl-wyh.notion.site/b5eaa498d4b04dfb81802616cce8e0a1?pvs=4
 ## 测鱼宝使用动图展示
