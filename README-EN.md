@@ -19,7 +19,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.24278065.v2-blue)](https://doi.org/10.6084/m9.figshare.24278065.v2)  
 
 ⚠️ 访问提示：  
-- 遇到403错误建议使用校园VPN访问
+- 遇到403错误建议使用VPN访问
 - 或发送请求至技术支持邮箱：2992861134@qq.com
 
 ---
