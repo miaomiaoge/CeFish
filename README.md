@@ -42,8 +42,12 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
   
 <img src= "https://github.com/user-attachments/assets/b0c8e3ad-ace1-41ce-b8b8-9bf465b42fa6" width="40%">
 
-   #### 3）运行软件
+   #### 3）拍照功能
 
+
+https://github.com/user-attachments/assets/60d75089-405f-4833-8b54-36a05ded9eb5
+
+   #### 4）检测功能
 
 https://github.com/user-attachments/assets/fc5d323d-5377-479f-b8d2-73f34d6bef32
 
