@@ -17,11 +17,11 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 ## 私有照片拍摄标准
   1）检测体重和体尺  （3要素：鱼、电子秤、黑色实线）
   
-  <img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/816189c3-831a-48c5-8fe5-2e2caa8f4066" width="50%"><img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/55cdbb14-e96e-48f2-8161-6e9ea09025ce" width="50%">
+  <img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/816189c3-831a-48c5-8fe5-2e2caa8f4066">
 
   2）仅检测体尺     （2要素：鱼、黑色实线）
   
-  
+  <img src= "https://github.com/miaomiaoge/CeFish/assets/43084054/55cdbb14-e96e-48f2-8161-6e9ea09025ce">
   
 ## 测鱼宝使用流程
  ### 1） 下载     
