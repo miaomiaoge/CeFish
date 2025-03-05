@@ -1,3 +1,4 @@
+```markdown
 <p align="center">
   <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="测鱼宝系统架构">
 </p>
@@ -76,3 +77,14 @@
 ### 1. 源码获取
 ```bash
 git clone https://github.com/miaomiaoge/CeFish.git
+或直接下载ZIP压缩包
+
+2. 驱动配置
+点击查看详细驱动安装说明
+📱 操作界面
+https://github.com/user-attachments/assets/6dbd2f7b-16d7-405f-9981-4b644f5f64d9 https://github.com/user-attachments/assets/c103f0d0-ea6b-4e79-8364-9e976ab3baa4
+📚 扩展资源
+操作手册：在线文档
+模型原理：基于HRNet的高分辨率特征融合技术
+研究支持：已应用于1300+尾大黄鱼表型-基因关联分析
+```
