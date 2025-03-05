@@ -16,8 +16,8 @@ https://doi.org/10.6084/m9.figshare.24278065.v2
 
 ## 私有照片拍摄标准
    **图A：** 检测体重和体尺（3元素，包含鱼、电子秤、黑色实线）    **图B**  仅检测体尺 （2元素，包含鱼、黑色实线）
-  
-  <img src= "https://github.com/user-attachments/assets/802603dd-1174-4440-a642-1ab2ef174a89" width="80%">
+
+  <img src= "https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="60%">
   
 ## 测鱼宝使用流程
  ### 1） 下载     
