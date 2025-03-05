@@ -5,7 +5,7 @@
 <h1 align="center"> 测鱼宝——智能鱼类表型采集与PIT记录系统</h1>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-2.1.0-brightgreen" alt="版本">
+  <img src="https://img.shields.io/badge/Version-2.5.0-brightgreen" alt="版本">
   <img src="https://img.shields.io/github/downloads/miaomiaoge/CeFish/total" alt="下载量">
   <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue" alt="许可协议">
 </div>
