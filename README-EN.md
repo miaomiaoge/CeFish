@@ -69,7 +69,7 @@
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="90%">
-      <br>必备元素：实验鱼+电子秤+5mm黑色实线
+      <br width="50%">必备元素：实验鱼+电子秤+5mm黑色实线
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/71d7d0f5-53b0-4c8d-ab71-2945c7c284e1" width="90%">
