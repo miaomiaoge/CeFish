@@ -10,10 +10,6 @@
   <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue" alt="许可协议">
 </div>
 
-<p align="center">
-  <img src="https://github.com/miaomiaoge/CeFish/assets/43084054/29e05213-f44f-4e2d-9e51-7cca4024a54a" alt="测鱼宝界面示意图" width="60%">
-</p>
-
 # 测鱼宝使用指南
 
 ## 软件获取
