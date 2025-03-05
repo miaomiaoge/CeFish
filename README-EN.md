@@ -13,7 +13,7 @@
 ---
 
 ## 📥 Software Acquisition
-**Latest Version**​  
+**Previous version**​  
 `v2.0.1` Released: Nov 2023  
 [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.24278065.v2-blue)](https://doi.org/10.6084/m9.figshare.24278065.v2)  
 
