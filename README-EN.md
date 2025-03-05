@@ -105,7 +105,7 @@ When the following status appears in the Device Manager, the driver needs to be 
 ---
 
 ### 2. Driver Installation
-#### 2.1 Official driver download
+#### 2.1 Official driver download （Click the image to jump to the link）
 [![Silicon Labs官方下载入口](https://github.com/user-attachments/assets/2350fd66-5f4f-4288-bb49-649bdf96120d)](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)  
 
 #### 2.2 Installation verification
